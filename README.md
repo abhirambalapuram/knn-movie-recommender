@@ -72,6 +72,20 @@ Includes movie metadata (titles, genres)
 https://grouplens.org/datasets/movielens/
 
 
+**Usage**
+
+Run EDA:
+
+Open and run the python file to explore data insights.
+
+Run the KNN model notebook or directly use the function:
+
+from src.recommender import recommend_similar_movies
+
+title, recs = recommend_similar_movies("Toy Story", return_n=5)
+print(title)
+print(recs)
+
 **Tech Stack**
 
 Python: Data processing and modeling
